@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 .App {
   text-align: center;
 }
 
-.emc-brand {
+.emc-brand-blue {
   font-family: 'Archivo Black', sans-serif;
   color: #2a4299;
+  font-size: 1.3em;
+}
+
+.emc-brand-red {
+  font-family: 'Archivo Black', sans-serif;
+  color: #a01616;
   font-size: 1.3em;
 }
 
@@ -24,4 +31,53 @@
 .service-hours {
   font-family: 'Source Serif Pro', serif;
   font-size: 1.4em;
+}
+
+.nav-link {
+  color: #aaa;
+  font-weight: 800;
+  position: relative;
+}
+
+.nav-link:after,
+.nav-link:before {
+  transition: all .5s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #555;
+}
+
+.home-tri-sections {
+  font-family: 'Lobster', cursive;
+}
+
+@media screen and (max-width: 416px) {
+  .emc-title-blue {
+    width: 1px;
+    visibility: hidden;
+  }
+
+  .emc-title-red {
+    visibility: hidden;
+    width: 1px;
+  }
+
+  .navbar-brand {
+    width: 80px;
+  }
 }

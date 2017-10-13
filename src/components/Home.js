@@ -1,88 +1,32 @@
 import React, { Component } from 'react';
-import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
-} from 'reactstrap';
-
-const items = [
-  {
-    src: 'http://www.godswordimages.com/uploads/categories/self-control/large/matthew-6_33.jpg',
-    altText: 'Seek His Kingdom First',
-    caption: 'Matthew 6:33'
-  },
-  {
-    src: 'https://i.ytimg.com/vi/zcSPrJlgUEk/maxresdefault.jpg',
-    altText: 'In Love',
-    caption: '1 Corinthians 16:13-14'
-  },
-  {
-    src: 'https://i.ytimg.com/vi/pUGpns7LAOM/maxresdefault.jpg',
-    altText: 'Whom Shall I Fear',
-    caption: 'Psalms 27:1'
-  }
-];
+import Slider from './Slider'
+import { Container, Row, Col } from 'reactstrap';
 
 class Home extends Component {
-  state = {
-    activeIndex: 0
-  }
-
-  onExiting = () => {
-    this.animating = true
-  }
-
-  onExited = () => {
-    this.animating = false
-  }
-
-  next = () => {
-    if (this.animating) return
-    const nextIndex = this.state.activeIndex === items.length - 1 ? 0 : this.state.activeIndex + 1
-    this.setState({ activeIndex: nextIndex })
-  }
-
-  previous = () => {
-    if (this.animating) return
-    const nextIndex = this.state.activeIndex === 0 ? items.length - 1 : this.state.activeIndex - 1
-    this.setState({ activeIndex: nextIndex })
-  }
-
-  goToIndex = newIndex => {
-    if (this.animating) return
-    this.setState({ activeIndex: newIndex })
-  }
-
   render() {
-    const { activeIndex } = this.state;
-
-    const slides = items.map((item) => {
-      return (
-        <CarouselItem
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-          key={item.src}
-          src={item.src}
-          altText={item.altText}
-        >
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
-        </CarouselItem>
-      )
-    })
-
     return (
-      <Carousel
-        activeIndex={activeIndex}
-        next={this.next}
-        previous={this.previous}
-      >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-        {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-      </Carousel>
+      <div>
+        <Slider />
+        <hr/>
+        <Container>
+          <Row>
+            <Col xs="6" sm="4">
+              <h3 className="home-tri-sections">Service Hours</h3><br/>
+              <p className="service-hours">
+                English Service 12:30 PM<br/>
+                Chinese Service 1:00 PM<br/>
+                Korean Service 10:45 AM
+              </p>
+            </Col>
+            <Col xs="6" sm="4">
+              <h3 className="home-tri-sections">Directions</h3><br/>
+            </Col>
+            <Col sm="4">
+              <h3 className="home-tri-sections">Secont 3</h3><br/>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     )
   }
 }
