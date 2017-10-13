@@ -66,6 +66,21 @@
   font-family: 'Lobster', cursive;
 }
 
+@media screen and (max-width: 1000px) {
+  .service-hours { font-size: 1em; }
+  .home-tri-sections { font-size: 2em; }
+}
+
+@media screen and (max-width: 777px) {
+  .service-hours { font-size: 13px; }
+  .home-tri-sections { font-size: 1.4em; }
+}
+
+@media screen and (max-width: 525px) {
+  .service-hours { font-size: 8px; }
+  .home-tri-sections { font-size: 1em; }
+}
+
 @media screen and (max-width: 416px) {
   .emc-title-blue {
     width: 1px;

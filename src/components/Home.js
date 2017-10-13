@@ -10,7 +10,7 @@ class Home extends Component {
         <hr/>
         <Container>
           <Row>
-            <Col xs="6" sm="4">
+            <Col>
               <h3 className="home-tri-sections">Service Hours</h3><br/>
               <p className="service-hours">
                 English Service 12:30 PM<br/>
@@ -18,10 +18,10 @@ class Home extends Component {
                 Korean Service 10:45 AM
               </p>
             </Col>
-            <Col xs="6" sm="4">
+            <Col>
               <h3 className="home-tri-sections">Directions</h3><br/>
             </Col>
-            <Col sm="4">
+            <Col>
               <h3 className="home-tri-sections">Secont 3</h3><br/>
             </Col>
           </Row>
