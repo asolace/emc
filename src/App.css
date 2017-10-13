@@ -74,6 +74,7 @@
 @media screen and (max-width: 777px) {
   .service-hours { font-size: 13px; }
   .home-tri-sections { font-size: 1.4em; }
+  .comming-soon-img { width: 400px; height: 146px; }
 }
 
 @media screen and (max-width: 525px) {
