@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 import './App.css';
 
-import Home from './components/home'
-import Header from './components/header'
-import About from './components/about'
-import ServiceTimes from './components/serviceTimes'
+import Home from './components/Home'
+import Header from './components/Header'
+import About from './components/About'
+import ServiceTimes from './components/ServiceTimes'
 
 class App extends Component {
   render() {
