@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+
 .App {
   text-align: center;
+}
+
+.emc-brand {
+  font-family: 'Archivo Black', sans-serif;
+  color: #2a4299;
+  font-size: 1.3em;
+}
+
+.emc-title-blue {
+  color: #2a4299;
+  font-size: 0.8em;
+}
+
+.emc-title-red {
+  color: #a01616;
+  font-size: 0.8em;
+}
+
+.service-hours {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.4em;
 }
