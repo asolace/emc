@@ -5,6 +5,9 @@ Using [reactstrap](https://reactstrap.github.io/).
 # To-dos
 - [x] For the nav-brand logo set css to have on hover with transition.
 - [ ] Needs new favicon.
+- [ ] Add New Comer tab
+- [ ] Needs Logo and styling.
+- [ ] Needs pictures of Staffs and community groups
 - [ ] __About Page__
   - [ ] Some dialog and display.
 - [ ] __Direction Page__
@@ -13,3 +16,5 @@ Using [reactstrap](https://reactstrap.github.io/).
   - [ ] The 3 sections in the `Home Page` needs styling.
   - [ ] Add link route to the 3 sections.
   - [ ] Carousel sizing needs fixing and centering after size fix.
+- [ ] __Footer__
+  - [ ] Add Contacts and copyrite
