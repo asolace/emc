@@ -10,6 +10,11 @@ class Home extends Component {
         <hr/>
         <Container>
           <Row>
+            <div className="gospel-img">
+              <img src="https://www.dare2share.org/wp-content/uploads/2013/11/free-youth-leader-gospel-illustration.png" alt="the-gospel"></img>
+            </div>
+          </Row>
+          <Row>
             <Col>
               <h3 className="home-tri-sections">Service Hours</h3><br/>
               <p className="service-hours">

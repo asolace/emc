@@ -6,6 +6,12 @@
   text-align: center;
 }
 
+.gospel-img {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .emc-brand-blue {
   font-family: 'Archivo Black', sans-serif;
   color: #2a4299;
@@ -35,7 +41,7 @@
 
 .nav-link {
   color: #aaa;
-  font-weight: 800;
+  font-weight: 400;
   position: relative;
 }
 
