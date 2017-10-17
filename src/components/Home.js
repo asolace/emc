@@ -24,7 +24,7 @@ class Home extends Component {
           <Row>
             <Col>
 
-              <Link to="/service-times">
+              <Link to="/">
                 <h3 className="home-tri-section-header">Time <span className="section-icon"><FaClock/></span></h3>
               </Link>
               <div className="home-tri-section-content">
@@ -37,7 +37,7 @@ class Home extends Component {
               </div>
             </Col>
             <Col>
-              <Link to="/about">
+              <Link to="/">
                 <h3 className="home-tri-section-header">Directions <span className="section-icon"><FaMapMarker/></span></h3>
               </Link>
               <div className="home-tri-section-content">
