@@ -16,7 +16,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <Navbar color="faded" light expand="md">
+        <Navbar color="faded" light expand="md" fixed="top">
           <Link to="/">
             <NavbarBrand>
               <span className="emc-brand-blue">E</span>
@@ -31,13 +31,13 @@ class Header extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/about">about</Link>
               </NavItem>
               <NavItem>
-                <Link className="nav-link" to="/service-times">Service Times</Link>
+                <Link className="nav-link" to="/service-times">service times</Link>
               </NavItem>
               <NavItem>
-                <Link className="nav-link" to="/about">Directions</Link>
+                <Link className="nav-link" to="/about">directions</Link>
               </NavItem>
             </Nav>
           </Collapse>

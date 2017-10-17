@@ -1,9 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Alice|PT+Serif+Caption|Archivo+Black');
 
 .App {
   text-align: center;
+}
+
+.App-container {
+  margin-top: 57px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+nav {
+  background-color: white;
+}
+
+.container {
+  margin-top: 130px;
+}
+
+.emc-brand-blue {
+  font-family: 'Archivo Black', sans-serif;
+  color: #5058b2;
+  font-size: 1.3em;
+}
+
+.emc-brand-red {
+  font-family: 'Archivo Black', sans-serif;
+  color: #ad574e;
+  font-size: 1.3em;
+}
+
+.emc-title-blue {
+  color: #5058b2;
+  font-size: 0.8em;
+}
+
+.emc-title-red {
+  color: #ad574e;
+  font-size: 0.8em;
 }
 
 .gospel-img {
@@ -12,35 +48,27 @@
   margin-bottom: 30px;
 }
 
-.emc-brand-blue {
-  font-family: 'Archivo Black', sans-serif;
-  color: #2a4299;
-  font-size: 1.3em;
+.home-tri-section-header {
+  color: #5058b2;
+  font-family: 'PT Serif Caption', serif;
+  font-size: 2.8vw;
 }
 
-.emc-brand-red {
-  font-family: 'Archivo Black', sans-serif;
-  color: #a01616;
-  font-size: 1.3em;
+.home-header {
+  font-family: 'PT Serif Caption', serif;
 }
 
-.emc-title-blue {
-  color: #2a4299;
-  font-size: 0.8em;
+.home-text {
+  font-size: 1.2em;
+  font-family: 'Alice', serif;
 }
 
-.emc-title-red {
-  color: #a01616;
-  font-size: 0.8em;
-}
-
-.service-hours {
-  font-family: 'Source Serif Pro', serif;
-  font-size: 1.4em;
+.home-tri-section-content {
+  font-family: 'Alice', serif;
+  font-size: 2vw;
 }
 
 .nav-link {
-  color: #aaa;
   font-weight: 400;
   position: relative;
 }
@@ -56,7 +84,7 @@
   width: 0%;
   content: '.';
   color: transparent;
-  background: #aaa;
+  background: #ad574e;
   height: 1px;
 }
 
@@ -65,12 +93,22 @@
 }
 
 .nav-link:hover {
-  color: #555;
+  color: #ad574e !important;
 }
 
-.home-tri-sections {
-  font-family: 'Lobster', cursive;
+.section-container {
+  text-align: left;
 }
+
+.section-icon {
+  text-align: right;
+  font-size: 2em;
+}
+
+.sunday-time {
+  font-size: 2.2em;
+}
+
 
 @media screen and (max-width: 1000px) {
   .service-hours { font-size: 1em; }
