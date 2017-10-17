@@ -7,6 +7,8 @@ import Header from './components/Header'
 import About from './components/About'
 import ServiceTimes from './components/ServiceTimes'
 
+const Footer = () => <div style={{height: '100px', width: '100%', backgroundColor: '#e8e5e5', marginTop: '50px'}}>Footer Placeholder</div>
+
 class App extends Component {
   render() {
     return (
@@ -18,6 +20,7 @@ class App extends Component {
             <Route path="/about" component={ About } />
             <Route path="/service-times" component={ ServiceTimes } />
           </div>
+          <Footer />
         </div>
       </BrowserRouter>
 

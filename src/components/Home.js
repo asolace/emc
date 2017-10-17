@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Slider from './Slider'
 import { Link } from 'react-router-dom'
 import { Container, Row, Col } from 'reactstrap';
+import Gmaps from './Gmaps'
 import FaClock from 'react-icons/lib/fa/clock-o'
+import FaMapMarker from 'react-icons/lib/fa/map-marker'
 
 class Home extends Component {
   render() {
@@ -35,7 +37,27 @@ class Home extends Component {
               </div>
             </Col>
             <Col>
-              <h3 className="home-tri-section-header">Directions</h3><br/>
+              <Link to="/about">
+                <h3 className="home-tri-section-header">Directions <span className="section-icon"><FaMapMarker/></span></h3>
+              </Link>
+              <div className="home-tri-section-content">
+                <h4 className="direction-emc">Ebenezer Mission</h4>
+                <h2 className="direction-emc">Church</h2>
+                <p>
+                  22016 Union Tpke,<br/> Oakland Gardens, NY 11364
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Gmaps
+                isMarkerShown
+                googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+                loadingElement={<div style={{ height: `100%` }} />}
+                containerElement={<div style={{ height: `400px` }} />}
+                mapElement={<div style={{ height: `100%` }} />}
+              />
             </Col>
           </Row>
         </Container>

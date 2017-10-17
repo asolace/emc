@@ -1,5 +1,6 @@
 # README
-Using [reactstrap](https://reactstrap.github.io/).
+[reactstrap](https://reactstrap.github.io/).
+[Gmaps](https://tomchentw.github.io/react-google-maps/).
 
 
 # To-dos
