@@ -19,7 +19,7 @@ class Header extends Component {
         <Navbar color="faded" light expand="md">
           <NavbarBrand href="/">
             <span className="emc-brand-blue">E</span>
-            <span className="emc-brand-red">M</span>
+            <span className="emc-brand-blue">M</span>
             <span className="emc-brand-blue">C</span>
             <span className="emc-title-blue"> | EBENEZER </span>
             <span className="emc-title-red">MISSION </span>
