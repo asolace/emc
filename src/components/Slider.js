@@ -7,23 +7,52 @@ import {
   CarouselCaption
 } from 'reactstrap';
 
+import carousel1 from '../photos/carousel-1.jpg'
+import carousel2 from '../photos/carousel-2.jpg'
+import carousel3 from '../photos/carousel-3.jpg'
+import carousel4 from '../photos/carousel-4.jpg'
+import carousel5 from '../photos/carousel-5.jpg'
+import carousel6 from '../photos/carousel-6.jpg'
+import carousel7 from '../photos/carousel-7.jpg'
+
 const items = [
   {
-    src: 'http://www.godswordimages.com/uploads/categories/self-control/large/matthew-6_33.jpg',
+    src: carousel1,
     altText: '',
     caption: ''
   },
   {
-    src: 'https://i.ytimg.com/vi/zcSPrJlgUEk/maxresdefault.jpg',
+    src: carousel2,
     altText: '',
     caption: ''
   },
   {
-    src: 'https://i.ytimg.com/vi/pUGpns7LAOM/maxresdefault.jpg',
+    src: carousel3,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: carousel4,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: carousel5,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: carousel6,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: carousel7,
     altText: '',
     caption: ''
   }
-];
+]
+
 
 class Slider extends Component {
   state = {
