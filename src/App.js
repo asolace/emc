@@ -6,8 +6,7 @@ import Home from './components/Home'
 import Header from './components/Header'
 import About from './components/About'
 import ServiceTimes from './components/ServiceTimes'
-
-const Footer = () => <div style={{height: '100px', width: '100%', backgroundColor: '#e8e5e5', marginTop: '50px'}}>Footer Placeholder</div>
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {

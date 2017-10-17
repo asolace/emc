@@ -53,7 +53,7 @@ class Home extends Component {
             <Col>
               <Gmaps
                 isMarkerShown
-                googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYjYt7PpDffRruRe3nHn85J0vVdcx-V3g&v3.exp&libraries=geometry,drawing,places"
                 loadingElement={<div style={{ height: `100%` }} />}
                 containerElement={<div style={{ height: `400px` }} />}
                 mapElement={<div style={{ height: `100%` }} />}

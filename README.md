@@ -17,5 +17,6 @@
   - [ ] The 3 sections in the `Home Page` needs styling.
   - [ ] Add link route to the 3 sections.
   - [ ] Carousel sizing needs fixing and centering after size fix.
+  - [ ] Google Maps needs key.
 - [ ] __Footer__
   - [ ] Add Contacts and copyrite
