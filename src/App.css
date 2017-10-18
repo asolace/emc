@@ -16,6 +16,10 @@ nav {
   background-color: white;
 }
 
+.col {
+  padding: 10px 0 0 0;
+}
+
 .container {
   margin-top: 130px;
 }
@@ -72,6 +76,30 @@ nav {
 .home-tri-section-content {
   font-family: 'Alice', serif;
   font-size: 2vw;
+}
+
+.img-in-pa {
+  width: 370px;
+  height: auto;
+}
+
+.name-me-section-home {
+  font-family: 'PT Serif Caption', serif;
+  color: black;
+}
+
+.name-me-section-home:hover {
+  color: #ad574e;
+}
+
+.name-me-img-home {
+  width: 350px;
+  height: 212px;
+}
+
+.name-me-text {
+  font-family: 'PT Serif Caption', serif;
+  padding-top: 20px;
 }
 
 .nav-link {
@@ -182,21 +210,16 @@ nav {
 }
 /*Footer End*/
 
-
-@media screen and (max-width: 1000px) {
-  .service-hours { font-size: 1em; }
-  .home-tri-sections { font-size: 2em; }
-}
-
-@media screen and (max-width: 777px) {
-  .service-hours { font-size: 13px; }
-  .home-tri-sections { font-size: 1.4em; }
-  .comming-soon-img { width: 400px; height: 146px; }
+@media screen and (max-width: 900px) {
+  .home-tri-section-header { font-size: 30px; }
+  .sunday-time { font-size: 30px; }
+  .home-tri-section-content { font-size: 20px; }
 }
 
 @media screen and (max-width: 525px) {
-  .service-hours { font-size: 8px; }
-  .home-tri-sections { font-size: 1em; }
+  .home-tri-section-header { font-size: 20px; }
+  .home-tri-section-content { font-size: 15px; }
+  .direction-emc { font-size: 17px; }
 }
 
 @media screen and (max-width: 416px) {

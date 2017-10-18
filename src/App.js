@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/Home'
 import Header from './components/Header'
 import About from './components/About'
-import ServiceTimes from './components/ServiceTimes'
+import PhotoAlbum from './components/PhotoAlbum'
 import Footer from './components/Footer'
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
           <div className="App-container">
             <Route exact path="/" component={ Home } />
             <Route path="/about" component={ About } />
-            <Route path="/service-times" component={ ServiceTimes } />
+            <Route path="/photos" component={ PhotoAlbum } />
           </div>
           <Footer />
         </div>
