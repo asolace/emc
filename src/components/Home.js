@@ -26,7 +26,7 @@ class Home extends Component {
         <div className="container">
           <Row>
             <Col>
-              <Link to="/">
+              <Link to="/members">
                 <h5 className="name-me-section-home">MEMBERS</h5>
                 <img className="name-me-img-home" src={members} alt="members"></img>
               </Link>
@@ -36,7 +36,7 @@ class Home extends Component {
               </p>
             </Col>
             <Col>
-              <Link to="/">
+              <Link to="/events">
                 <h5 className="name-me-section-home">EVENTS</h5>
                 <img className="name-me-img-home" src={events} alt="events"></img>
               </Link>
@@ -45,7 +45,7 @@ class Home extends Component {
               </p>
             </Col>
             <Col>
-              <Link to="/">
+              <Link to="/prayers">
                 <h5 className="name-me-section-home">PRAYERS</h5>
                 <img className="name-me-img-home" src={prayers} alt="photos"></img>
               </Link>
@@ -58,9 +58,7 @@ class Home extends Component {
         <Container className="section-container">
           <Row>
             <Col>
-              <Link to="/">
-                <h3 className="home-tri-section-header">Time <span className="section-icon"><FaClock/></span></h3>
-              </Link>
+              <h3 className="home-tri-section-header">Time <span className="section-icon"><FaClock/></span></h3>
               <div className="home-tri-section-content">
                 <h4 className="sunday-time">Sunday</h4>
                 <p>
@@ -71,9 +69,7 @@ class Home extends Component {
               </div>
             </Col>
             <Col>
-              <Link to="/">
-                <h3 className="home-tri-section-header">Directions <span className="section-icon"><FaMapMarker/></span></h3>
-              </Link>
+              <h3 className="home-tri-section-header">Directions <span className="section-icon"><FaMapMarker/></span></h3>
               <div className="home-tri-section-content">
                 <h4 className="direction-emc">Ebenezer Mission</h4>
                 <h2 className="direction-emc">Church</h2>
