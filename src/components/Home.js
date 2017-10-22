@@ -7,7 +7,7 @@ import FaClock from 'react-icons/lib/fa/clock-o'
 import FaMapMarker from 'react-icons/lib/fa/map-marker'
 
 import members from '../photos/people/IMG_0582.JPG'
-import events from '../photos/people/IMG_0495.JPG'
+import events from '../photos/people/IMG_0433.jpg'
 import prayers from '../photos/people/IMG_0510.JPG'
 
 class Home extends Component {
