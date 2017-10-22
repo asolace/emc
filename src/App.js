@@ -5,36 +5,32 @@ import './App.css';
 import Home from './components/Home'
 import Header from './components/Header'
 import About from './components/About'
-import Footer from './components/Footer'
+
+import Warping from './components/Warping'
 
 const Members = () =>
 <div className="about-page">
-  <img src="https://leads.perfectstormnow.com/image/site/458/partner-59c0095d730a2.gif" alt="site under construction"/><br/>
-  <img src="http://www.exuberancesolutions.in/uc.gif" alt="under-construction"/>
+  <Warping />
 </div>
 
 const Events = () =>
 <div className="about-page">
-  <img src="https://leads.perfectstormnow.com/image/site/458/partner-59c0095d730a2.gif" alt="site under construction"/><br/>
-  <img src="http://www.exuberancesolutions.in/uc.gif" alt="under-construction"/>
+  <Warping />
 </div>
 
 const Prayers = () =>
 <div className="about-page">
-  <img src="https://leads.perfectstormnow.com/image/site/458/partner-59c0095d730a2.gif" alt="site under construction"/><br/>
-  <img src="http://www.exuberancesolutions.in/uc.gif" alt="under-construction"/>
+  <Warping />
 </div>
 
 const Photos = () =>
 <div className="about-page">
-  <img src="https://leads.perfectstormnow.com/image/site/458/partner-59c0095d730a2.gif" alt="site under construction"/><br/>
-  <img src="http://www.exuberancesolutions.in/uc.gif" alt="under-construction"/>
+  <Warping />
 </div>
 
 const LocaTime = () =>
 <div className="about-page">
-  <img src="https://leads.perfectstormnow.com/image/site/458/partner-59c0095d730a2.gif" alt="site under construction"/><br/>
-  <img src="http://www.exuberancesolutions.in/uc.gif" alt="under-construction"/>
+  <Warping />
 </div>
 
 class App extends Component {
@@ -52,7 +48,6 @@ class App extends Component {
             <Route path="/photos" component={ Photos } />
             <Route path="/location-time" component={ LocaTime } />
           </div>
-          <Footer />
         </div>
       </BrowserRouter>
 

@@ -5,6 +5,8 @@ import { Container, Row, Col } from 'reactstrap';
 import Gmaps from './Gmaps'
 import FaClock from 'react-icons/lib/fa/clock-o'
 import FaMapMarker from 'react-icons/lib/fa/map-marker'
+import Footer from './Footer'
+
 
 import members from '../photos/people/IMG_0582.JPG'
 import events from '../photos/people/IMG_0433.jpg'
@@ -91,6 +93,7 @@ class Home extends Component {
             </Col>
           </Row>
         </Container>
+        <Footer />
       </div>
     )
   }

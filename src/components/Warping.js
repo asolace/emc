@@ -3,30 +3,14 @@ import React from 'react'
 const Warping = () => {
   return (
     <div className="warping-container">
-      <div class='warp-wrapper'>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
-      <div class='wrapper alpha'>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
+      <h1 className="site-status"><i className="fa fa-exclamation-triangle" />Under Construction</h1>
+      <main>
+        <div className="warpings"></div>
+        <div className="warpings"></div>
+        <div className="warpings"></div>
+        <div className="warpings"></div>
+        <div className="warpings"></div>
+      </main>
     </div>
   )
 }
