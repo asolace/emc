@@ -1,5 +1,76 @@
 @import url('https://fonts.googleapis.com/css?family=Alice|PT+Serif+Caption|Archivo+Black');
 
+.about-container {
+  margin-top: 50px;
+}
+
+.about-container-rowA {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.about-container-rowB {
+  padding-left: 100px;
+}
+
+.about-leader-images-left {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.about-leader-images-right {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.about-leader-text {
+  height: 300px;
+  width: 500px;
+  text-align: center;
+}
+
+.about-our-mission{
+  padding-top: 100px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.about-page-container {
+  background-color: #f4f2ed;
+  width: 100vw;
+}
+
+.about-mission-statement{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.about-mission-statement-out-container {
+  background-image: url('./photos/blurrychurch.jpg');
+  background-size: cover;
+  width: 80vw;
+  height: 92vh;
+  margin-left: 10%;
+}
+.about-mission-statement-in-container {
+  padding-top: 60px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.about-our-leaders {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-top: 130px;
+}
+.about-restofus {
+  margin-top: 50px;
+  left: 25%;
+  width: 50vw;
+}
+
 .App {
   text-align: center;
 }
