@@ -5,15 +5,11 @@ import './App.css';
 import Home from './components/Home'
 import Header from './components/Header'
 import About from './components/About'
+import Fellowship from './components/Fellowship'
 
 import Warping from './components/Warping'
 
 const Members = () =>
-<div className="about-page">
-  <Warping />
-</div>
-
-const Events = () =>
 <div className="about-page">
   <Warping />
 </div>
@@ -43,7 +39,7 @@ class App extends Component {
             <Route exact path="/" component={ Home } />
             <Route path="/about" component={ About } />
             <Route path="/members" component={ Members } />
-            <Route path="/events" component={ Events } />
+            <Route path="/fellowship" component={ Fellowship } />
             <Route path="/prayers" component={ Prayers } />
             <Route path="/photos" component={ Photos } />
             <Route path="/location-time" component={ LocaTime } />
