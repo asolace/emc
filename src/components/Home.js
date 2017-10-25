@@ -52,7 +52,7 @@ class Home extends Component {
                 <img className="name-me-img-home" src={prayers} alt="photos"></img>
               </Link>
               <p className="name-me-text">
-                Praying is one of the most important part of a Christian's life. Finding the lost, saving souls, keeping the faith and much more are impossible task that no man can do but with God anything is possible.
+                Praying is one of the most important part of a Christians life. Finding the lost, saving souls, keeping the faith and much more are impossible task that no man can do but with God anything is possible.
               </p>
             </Col>
           </Row>
