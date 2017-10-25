@@ -39,11 +39,33 @@ class About extends Component {
 
         <hr />
 
-        <h1 className="about-our-leaders">And the rest of our family!</h1>
+        <h1 className="about-our-leaders">Our Deacons</h1>
+
+        <div className="about-deacon-container">
+          <Row className="about-deacon-row">
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Lulu Lim</h2></Col>
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Mimi Ahn</h2></Col>
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Kay Choi</h2></Col>
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Arlene</h2></Col>
+          </Row>
+          <Row className="about-deacon-row">
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Nilsa</h2></Col>
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Jason Park</h2></Col>
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Daniel Hsin</h2></Col>
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Virgil</h2></Col>
+          </Row>
+        </div>
+
+        <hr />
+
+        <h1 className="about-restofus-header">And the rest of our family!</h1>
 
         <div className="about-restofus-frame">
-          <img className="about-restofus" src={grouppic}></img>
+          <img className="about-restofus-image" src={grouppic}></img>
         </div>
+
+        <br/><br/><br/><br/>
+
       </div>
     )
   }
