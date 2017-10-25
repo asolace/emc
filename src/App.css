@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Alice|PT+Serif+Caption|Archivo+Black');
 
+h1, p {
+  font-family: 'Alice', serif;
+}
+
 .about-container {
   margin-top: 50px;
 }
@@ -29,12 +33,14 @@
   height: 300px;
   width: 500px;
   text-align: center;
+  font-family: 'Alice', serif;
 }
 
 .about-our-mission{
   padding-top: 100px;
   font-family: "Lato", sans-serif;
   font-weight: 900;
+  font-family: 'Alice', serif;
 }
 
 .about-page-container {
