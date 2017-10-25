@@ -46,13 +46,13 @@ class About extends Component {
             <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Lulu Lim</h2></Col>
             <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Mimi Ahn</h2></Col>
             <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Kay Choi</h2></Col>
-            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Arlene</h2></Col>
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Arlene Macaraeg</h2></Col>
           </Row>
           <Row className="about-deacon-row">
-            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Nilsa</h2></Col>
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Nilsa Morales</h2></Col>
             <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Jason Park</h2></Col>
             <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Daniel Hsin</h2></Col>
-            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Virgil</h2></Col>
+            <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Virgil Macaraeg</h2></Col>
           </Row>
         </div>
 
