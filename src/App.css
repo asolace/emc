@@ -88,48 +88,52 @@ nav {
   font-family: 'Alice', serif;
 }
 
-.about-our-mission{
-  padding-top: 100px;
-  font-weight: 900;
+.about-leader-text{
+  height: 300px;
+  width: 500px;
+  text-align: center;
   font-family: 'Alice', serif;
 }
 
-.about-page-container {
-  background-color: #f4f2ed;
-  width: 100vw;
-}
-
-.about-mission-statement{
-  font-family: "Alice", serif;
-  font-weight: 600;
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-.about-mission-statement-out-container{
-  background-image: url('./photos/blurrychurch.jpg');
-  width: 100%;
-  height: 590px;
-  background-size: cover;
+/* About Mission Section BEGIN */
+.about-mission-container{
   background-attachment: fixed;
+  background-image: url('./photos/blurrychurchedited.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Alice', serif;
+  height: 500px;
 }
 
-.about-mission-statement-in-container {
-  padding-top: 30px;
-  margin-left: 20%;
-  width: 60vw;
+.about-mission-header{
+  padding-top: 10vw;
+  font-weight: 900;
 }
+
+.about-mission-text{
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 3vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+@media screen and (max-width: 450px) {
+  .about-mission-header{ padding-top: 15vw; font-size: 32px; }
+  .about-mission-text{ font-size: 16px; }
+}
+
+@media screen and (max-width: 360px) {
+  .about-mission-header{ padding-top: 28vw; font-size: 28px; }
+  .about-mission-text{ font-size: 14px; }
+}
+/*About Mission Section END*/
 
 .about-our-leaders {
-  font-family: "Lato", sans-serif;
+  font-family: "Alice", serif;
   font-weight: 600;
   margin-top: 75px;
-}
-
-.about-our-mission{
-  padding-top: 80px;
-  font-family: "Alice", serif;
-  font-weight: 900;
 }
 
 .about-page-container {
@@ -138,7 +142,7 @@ nav {
 }
 
 .about-restofus-header {
-  font-family: "Lato", sans-serif;
+  font-family: "Alice", serif;
   font-weight: 600;
   margin-top: 75px;
   margin-bottom: 100px;
@@ -146,7 +150,7 @@ nav {
 
 .about-restofus-image {
   width: 45vw;
-  height: 600px;
+  height: auto;
   padding-top: 3%;
   padding-bottom: 4%;
   width: 90%;
@@ -166,16 +170,14 @@ nav {
   padding-bottom: 100px;
 }
 
+/*
+
 @media screen and (max-width: 1250px) {
   .about-deacon-image { width: 165px; height: 165px; }
   .about-deacon-image-container { width: 180px; height: 180px; }
   .about-deacon-name { font-size: 23px; margin-left: 65px; }
   .about-our-leaders { font-size: 32px; }
   .about-leader-text { font-size: 15px; width: 450px;}
-  .about-our-mission { padding-top: 70px; font-size: 32px; }
-  .about-mission-statement { padding-left: 30%; padding-right: 0%;}
-  .about-mission-statement-out-container { height: 500px;}
-  .about-mission-statement-in-container {padding-top: 35px; font-size: 15px; margin-left: 5%; width: 70vw; height: 90vh;}
 }
 
 @media screen and (max-width: 1050px) {
@@ -198,10 +200,6 @@ nav {
   .about-leader-image { width: 200px; height: 200px; }
   .about-leader-image-container { margin-left: 29vw; width: 218px; height: 218px;}
   .about-leader-text { font-size: 15px; width: 60vw; margin-left: 15%; margin-top: 10%; padding-bottom: 350px; }
-  .about-our-mission { padding-top: 70px; font-size: 28px; }
-  .about-mission-statement { padding-left: 20%; padding-right: 0%;}
-  .about-mission-statement-out-container { height: 450px;}
-  .about-mission-statement-in-container {padding-top: 35px; font-size: 12.5px; margin-left: 7.5%; width: 70vw; height: 90vh;}
   .about-restofus-image { height: auto; }
   .about-restofus-frame { margin-left: 10%; width: 80vw; }
 }
@@ -220,10 +218,6 @@ nav {
   .about-leader-text { font-size: 15px; width: 80vw; margin-left: 0%; }
   .about-our-leaders { font-size: 25px; }
   .about-leader-image-container { margin-left: 23vw;}
-  .about-our-mission { padding-top: 70px; font-size: 25px; }
-  .about-mission-statement { padding-left: 10%; padding-right: 0%;}
-  .about-mission-statement-out-container { height: 375px;}
-  .about-mission-statement-in-container {padding-top: 20px; font-size: 10px; margin-left: 10%; width: 70vw; height: 90vh;}
 }
 
 @media screen and (max-width: 600px) {
@@ -243,10 +237,6 @@ nav {
   .about-leader-image { width: 200px; height: 200px; }
   .about-leader-image-container { margin-left: 20vw; width: 218px; height: 218px; }
   .about-leader-text { font-size: 15px; width: 80vw; margin-left: 5%; margin-top: 10%; padding-bottom: 400px;}
-  .about-our-mission { padding-top: 50px; font-size: 20px; }
-  .about-mission-statement { padding-left: 5%; padding-right: 0%;}
-  .about-mission-statement-out-container { height: 350px;}
-  .about-mission-statement-in-container {padding-top: 20px; font-size: 10px; margin-left: 12.5%; width: 70vw; height: 90vh;}
 }
 
 @media screen and (max-width: 400px) {
@@ -256,10 +246,6 @@ nav {
   .about-our-leaders { font-size: 20px; }
   .about-leader-image-container { margin-left: 15vw; width: 218px; height: 218px; }
   .about-leader-text { width: 300px; margin-left: 5%; margin-top: 10%; padding-bottom: 450px;}
-  .about-our-mission { padding-top: 40px; font-size: 20px; }
-  .about-mission-statement { padding-left: 10%; padding-right: 0;}
-  .about-mission-statement-out-container { height: 300px;}
-  .about-mission-statement-in-container {padding-top: 10px; font-size: 8px; margin-left: 10%; width: 70vw; height: 90vh;}
 }
 
 @media screen and (max-width: 360px) {
@@ -268,9 +254,12 @@ nav {
   .about-deacon-name { margin-left: 45px; }
   .about-leader-image { width: 150px; height: 150px; }
   .about-leader-image-container { margin-left: 17.5vw; width: 165px; height: 165px; }
-  .about-leader-text { width: 80vw; margin-left: 5%; margin-top: 10%; padding-bottom: 575px;}
+  .about-leader-text { width: 80vw; margin-left: 5%; margin-top: 10%; padding-bottom: 450px;}
   .about-restofus-frame { margin-left: 10%; width: 80vw;}
 }
+
+*/
+
 /*About Page End*/
 
 .carousel {
