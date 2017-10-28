@@ -25,24 +25,76 @@ class About extends Component {
         <br /><br /><br /><br />
         <hr />
 
-        <h1 className="about-our-leaders">Our Leaders</h1>
+        <h1 className="about-leader-header">Our Leaders</h1>
         <ScrollAnimation animateIn='fadeIn' initiallyVisible={false} animateOnce={true}>
-          <div className="about-container">
-            <Row className="about-container-row">
-              <Col><div className="about-leader-image-container"><img className="about-leader-image" src={profilepic}></img></div></Col>
-              <Col><div className="about-leader-text"><h2>Pastor Jae Lee</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec dui et enim commodo facilisis id in magna. Nam ullamcorper nulla nunc, quis maximus lacus consectetur eu. Aenean et diam egestas, vestibulum orci sodales, tristique odio. Aliquam quis varius quam, ultrices euismod ipsum. Integer gravida iaculis mauris ac tristique. Donec semper, mauris eget hendrerit ornare, sapien quam gravida odio, a tincidunt purus ante in ligula. In hac  habitasse platea dictumst.</div></Col>
+          <div className="about-leader-container">
+            <Row className="about-leader-row">
+              <Col>
+                <div className="about-leader-image-border">
+                  <img className="about-leader-image" src={profilepic} />
+                </div>
+              </Col>
+              <Col>
+                <h2 className="about-leader-name">Pastor Jae Lee</h2>
+                <p className="about-leader-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Donec nec dui et enim commodo facilisis id in magna.
+                  Nam ullamcorper nulla nunc, quis maximus lacus consectetur eu.
+                  Aenean et diam egestas, vestibulum orci sodales, tristique odio.
+                  Aliquam quis varius quam, ultrices euismod ipsum.
+                  Integer gravida iaculis mauris ac tristique.</p>
+              </Col>
             </Row>
-            <Row className="about-container-row">
-              <Col><div className="about-leader-image-container"><img className="about-leader-image" src={profilepic}></img></div></Col>
-              <Col><div className="about-leader-text"><h2>Pastor Pio Lee</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec dui et enim commodo facilisis id in magna. Nam ullamcorper nulla nunc, quis maximus lacus consectetur eu. Aenean et diam egestas, vestibulum orci sodales, tristique odio. Aliquam quis varius quam, ultrices euismod ipsum. Integer gravida iaculis mauris ac tristique. Donec semper, mauris eget hendrerit ornare, sapien quam gravida odio, a tincidunt purus ante in ligula. In hac  habitasse platea dictumst.</div></Col>
+            <Row className="about-leader-row">
+              <Col>
+                <div className="about-leader-image-border">
+                  <img className="about-leader-image" src={profilepic} />
+                </div>
+              </Col>
+              <Col>
+                <h2 className="about-leader-name">Pastor Jae Lee</h2>
+                <p className="about-leader-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Donec nec dui et enim commodo facilisis id in magna.
+                  Nam ullamcorper nulla nunc, quis maximus lacus consectetur eu.
+                  Aenean et diam egestas, vestibulum orci sodales, tristique odio.
+                  Aliquam quis varius quam, ultrices euismod ipsum.
+                  Integer gravida iaculis mauris ac tristique.</p>
+              </Col>
             </Row>
-            <Row className="about-container-row">
-              <Col><div className="about-leader-image-container"><img className="about-leader-image" src={profilepic}></img></div></Col>
-              <Col><div className="about-leader-text"><h2>Pastor Enrique Pinero</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec dui et enim commodo facilisis id in magna. Nam ullamcorper nulla nunc, quis maximus lacus consectetur eu. Aenean et diam egestas, vestibulum orci sodales, tristique odio. Aliquam quis varius quam, ultrices euismod ipsum. Integer gravida iaculis mauris ac tristique. Donec semper, mauris eget hendrerit ornare, sapien quam gravida odio, a tincidunt purus ante in ligula. In hac  habitasse platea dictumst.</div></Col>
+            <Row className="about-leader-row">
+              <Col>
+                <div className="about-leader-image-border">
+                  <img className="about-leader-image" src={profilepic} />
+                </div>
+              </Col>
+              <Col>
+                <h2 className="about-leader-name">Pastor Jae Lee</h2>
+                <p className="about-leader-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Donec nec dui et enim commodo facilisis id in magna.
+                  Nam ullamcorper nulla nunc, quis maximus lacus consectetur eu.
+                  Aenean et diam egestas, vestibulum orci sodales, tristique odio.
+                  Aliquam quis varius quam, ultrices euismod ipsum.
+                  Integer gravida iaculis mauris ac tristique.</p>
+              </Col>
             </Row>
-            <Row className="about-container-row">
-              <Col><div className="about-leader-image-container"><img className="about-leader-image" src={profilepic}></img></div></Col>
-              <Col><div className="about-leader-text"><h2>Dr. Soo-Il Lee</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec dui et enim commodo facilisis id in magna. Nam ullamcorper nulla nunc, quis maximus lacus consectetur eu. Aenean et diam egestas, vestibulum orci sodales, tristique odio. Aliquam quis varius quam, ultrices euismod ipsum. Integer gravida iaculis mauris ac tristique. Donec semper, mauris eget hendrerit ornare, sapien quam gravida odio, a tincidunt purus ante in ligula. In hac  habitasse platea dictumst.</div></Col>
+            <Row className="about-leader-row">
+              <Col>
+                <div className="about-leader-image-border">
+                  <img className="about-leader-image" src={profilepic} />
+                </div>
+              </Col>
+              <Col>
+                <h2 className="about-leader-name">Pastor Jae Lee</h2>
+                <p className="about-leader-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Donec nec dui et enim commodo facilisis id in magna.
+                  Nam ullamcorper nulla nunc, quis maximus lacus consectetur eu.
+                  Aenean et diam egestas, vestibulum orci sodales, tristique odio.
+                  Aliquam quis varius quam, ultrices euismod ipsum.
+                  Integer gravida iaculis mauris ac tristique.</p>
+              </Col>
             </Row>
           </div>
         </ScrollAnimation>
@@ -54,7 +106,7 @@ class About extends Component {
           <div className="about-deacon-container">
             <Row className="about-deacon-row">
               <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Lulu Lim</h2></Col>
-                <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Mimi Ahn</h2></Col>
+              <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Mimi Ahn</h2></Col>
               <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Kay Choi</h2></Col>
               <Col><div className="about-deacon-image-container"><img className="about-deacon-image" src={profilepic}></img></div><h2 className="about-deacon-name">Arlene Macaraeg</h2></Col>
             </Row>

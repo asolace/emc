@@ -22,16 +22,6 @@ nav {
 
 /*About Page Begin*/
 
-.about-container {
-  margin-top: 50px;
-}
-
-.about-container-row {
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-right: 0px !important;
-}
-
 .about-deacon-container {
   margin-top: 50px;
 }
@@ -63,36 +53,6 @@ nav {
   margin-top: 5%;
   margin-left: 10%;
   margin-right: 15%;
-}
-
-.about-leader-image-container {
-  border-radius: 50%;
-  background-image: url('./photos/mediumleather.jpg');
-  background-color: #b27c2a;
-  width: 270px;
-  height: 270px;
-  margin-left: 25%;
-}
-
-.about-leader-image {
-  margin-top: 4%;
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-}
-
-.about-leader-text-container {
-  height: 300px;
-  width: 500px;
-  text-align: center;
-  font-family: 'Alice', serif;
-}
-
-.about-leader-text{
-  height: 300px;
-  width: 500px;
-  text-align: center;
-  font-family: 'Alice', serif;
 }
 
 /* About Mission Section BEGIN */
@@ -128,17 +88,80 @@ nav {
   .about-mission-header{ padding-top: 28vw; font-size: 28px; }
   .about-mission-text{ font-size: 14px; }
 }
-/*About Mission Section END*/
+/* About Mission Section END */
 
-.about-our-leaders {
+/* About Leader Section BEGIN */
+.about-leader-container {
+  margin-right: 0px !important;
+  margin-top: 50px;
+}
+
+.about-leader-row {
+  margin-right: 0px !important;
+  padding-bottom: 5vw;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.about-leader-image-border {
+  border-radius: 50%;
+  background-image: url('./photos/mediumleather.jpg');
+  background-color: #b27c2a;
+  width: 20vw;
+  height: 20vw;
+  margin-left: 25%;
+}
+
+.about-leader-header {
   font-family: "Alice", serif;
   font-weight: 600;
   margin-top: 75px;
 }
 
+.about-leader-image {
+  margin-top: 4%;
+  border-radius: 50%;
+  width: 18.5vw;
+  height: 18.5vw;
+}
+
+.about-leader-name{
+  margin-top: 20px;
+  font-family: 'Alice', serif;
+  font-size: 32px;
+}
+
+.about-leader-text{
+  width: 40vw;
+  text-align: center;
+  font-family: 'Alice', serif;
+}
+
+@media screen and (max-width: 1150px){
+  .about-leader-name { font-size: 24px; }
+  .about-leader-text { font-size: 14px; }
+}
+
+@media screen and (max-width: 1000px){
+  .about-leader-image-border {  height: 220px; width: 220px; }
+  .about-leader-image { height: 200px; width: 200px; }
+}
+
+@media screen and (max-width: 800px){
+  .about-leader-image-border { margin-left: 25vw; height: 35vw; width: 35vw; }
+  .about-leader-image { height: 32vw; width: 32vw; }
+  .about-leader-name {margin-left: 2vw}
+  .about-leader-text { margin-left: 2vw; min-width: 450px; width: auto;}
+}
+
+@media screen and (max-width: 500px){
+  .about-leader-text { min-width: 200px; width: auto; }
+}
+/* About Leaders Section END */
+
 .about-page-container {
   background-color: #f4f2ed;
-  width: 100vw;
+  width: 98.9vw;
 }
 
 .about-restofus-header {
@@ -170,14 +193,10 @@ nav {
   padding-bottom: 100px;
 }
 
-/*
-
 @media screen and (max-width: 1250px) {
   .about-deacon-image { width: 165px; height: 165px; }
   .about-deacon-image-container { width: 180px; height: 180px; }
   .about-deacon-name { font-size: 23px; margin-left: 65px; }
-  .about-our-leaders { font-size: 32px; }
-  .about-leader-text { font-size: 15px; width: 450px;}
 }
 
 @media screen and (max-width: 1050px) {
@@ -186,20 +205,10 @@ nav {
   .about-deacon-name { font-size: 27px; margin-left: 82px; padding-bottom: 60px;}
 }
 
-@media screen and (max-width: 1100px) {
-  .about-leader-text { font-size: 15px; width: 400px; margin-left: 25%; margin-top: 5%; padding-bottom: 350px;}
-  .about-leader-image { width: 225px; height: 225px; }
-  .about-leader-image-container { margin-left: 28vw; width: 243px; height: 243px;}
-}
-
 @media screen and (max-width: 900px) {
   .about-deacon-image { width: 210px; height: 210px; }
   .about-deacon-image-container { width: 228px; height: 228px; }
   .about-deacon-name { font-size: 20px; margin-left: 70px; padding-bottom: 40px; }
-  .about-our-leaders { font-size: 28px; }
-  .about-leader-image { width: 200px; height: 200px; }
-  .about-leader-image-container { margin-left: 29vw; width: 218px; height: 218px;}
-  .about-leader-text { font-size: 15px; width: 60vw; margin-left: 15%; margin-top: 10%; padding-bottom: 350px; }
   .about-restofus-image { height: auto; }
   .about-restofus-frame { margin-left: 10%; width: 80vw; }
 }
@@ -215,50 +224,32 @@ nav {
   .about-deacon-image { width: 175px; height: 175px; }
   .about-deacon-image-container { width: 190px; height: 190px; }
   .about-deacon-name { margin-left: 60px; font-size: 20px; }
-  .about-leader-text { font-size: 15px; width: 80vw; margin-left: 0%; }
-  .about-our-leaders { font-size: 25px; }
-  .about-leader-image-container { margin-left: 23vw;}
 }
 
 @media screen and (max-width: 600px) {
   .about-deacon-image { width: 150px; height: 150px; }
   .about-deacon-image-container { width: 165px; height: 165px; }
   .about-deacon-name { margin-left: 60px;}
-  .about-leader-image { width: 200px; height: 200px; }
-  .about-leader-image-container { margin-left: 20vw; width: 218px; height: 218px; }
-  .about-leader-text { font-size: 15px; width: 80vw; margin-left: 0%; margin-top: 10%;}
 }
 
 @media screen and (max-width: 500px) {
   .about-deacon-image { width: 190px; height: 190px; }
   .about-deacon-image-container { width: 208px; height: 208px; }
   .about-deacon-name { margin-left: 25px;}
-  .about-our-leaders { font-size: 20px; }
-  .about-leader-image { width: 200px; height: 200px; }
-  .about-leader-image-container { margin-left: 20vw; width: 218px; height: 218px; }
-  .about-leader-text { font-size: 15px; width: 80vw; margin-left: 5%; margin-top: 10%; padding-bottom: 400px;}
 }
 
 @media screen and (max-width: 400px) {
   .about-deacon-image { width: 175px; height: 175px; }
   .about-deacon-image-container { width: 190px; height: 190px; }
   .about-deacon-name { margin-left: 40px; }
-  .about-our-leaders { font-size: 20px; }
-  .about-leader-image-container { margin-left: 15vw; width: 218px; height: 218px; }
-  .about-leader-text { width: 300px; margin-left: 5%; margin-top: 10%; padding-bottom: 450px;}
 }
 
 @media screen and (max-width: 360px) {
   .about-deacon-image { width: 150px; height: 150px; }
   .about-deacon-image-container { width: 165px; height: 165px; }
   .about-deacon-name { margin-left: 45px; }
-  .about-leader-image { width: 150px; height: 150px; }
-  .about-leader-image-container { margin-left: 17.5vw; width: 165px; height: 165px; }
-  .about-leader-text { width: 80vw; margin-left: 5%; margin-top: 10%; padding-bottom: 450px;}
   .about-restofus-frame { margin-left: 10%; width: 80vw;}
 }
-
-*/
 
 /*About Page End*/
 
